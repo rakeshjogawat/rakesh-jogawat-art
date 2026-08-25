@@ -74,21 +74,6 @@ const artworks = [
         description:
         "Hidden in the folds of the valley, a small hut stands as nature's favorite hideaway, untouched by time."
     },
-
-    {
-        id: "nature's-favorite-hideaway",
-        title: "Nature's favorite hideaway",
-        medium: "Acrylics",
-        surface: "Paper",
-        size: "12 × 16 inches",
-        year: 2026,
-        price: 5000,
-        status: "Available",
-        featured: true,
-        image: "images/painting5.jpeg",
-        description:
-            "Hidden in the folds of the valley, a small hut stands as nature's favorite hideaway, untouched by time."
-    },
     
     {
         id: "lord-buddha",
