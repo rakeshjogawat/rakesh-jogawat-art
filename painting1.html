@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Local Chronicle  | Rakesh Jogawat</title>
+	
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+        RAKESH JOGAWAT
+    </div>
+
+
+   <nav>
+
+    <a href="index.html">Home</a>
+
+    <a href="gallery.html">Gallery</a>
+
+    <a href="index.html#about">About</a>
+
+    <a href="index.html#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<main class="artwork-page">
+
+
+   <div class="artwork-image">
+
+    <img
+        src="images/painting1.jpeg"
+        alt="The Local Chronicle by Rakesh Jogawat"
+        class="lightbox-trigger"
+        id="artwork-image"
+    >
+
+</div>
+
+
+
+    <div class="artwork-details">
+     <div class="artwork-navigation">
+
+    <a href="gallery.html" class="back-gallery">
+        ← BACK TO GALLERY
+    </a>
+
+    <a href="painting2.html" class="next-artwork">
+        NEXT ARTWORK →
+    </a>
+
+</div>
+
+        <p class="small-heading">
+            ORIGINAL ARTWORK
+        </p>
+
+
+       <h1>
+    The Local Chronicle
+</h1>
+
+
+        <p class="medium">
+            Watercolour on paper
+        </p>
+
+
+      <p class="description">
+
+    An original watercolour artwork by Rakesh Jogawat,
+    created in 2026 and inspired by everyday life.
+
+</p>
+
+
+      <div class="details">
+
+    <p>
+        <strong>Size:</strong>
+        10 × 14 inches
+    </p>
+
+    <p>
+        <strong>Year:</strong>
+        2026
+    </p>
+
+    <p>
+        <strong>Status:</strong>
+        Available
+    </p>
+
+</div>
+
+        <div class="buy-section">
+
+            <div class="price">
+                ₹8,000
+            </div>
+
+
+   <a
+    class="whatsapp-button"
+    href="https://wa.me/918005647209?text=Hello%20Rakesh%2C%20I%20am%20interested%20in%20purchasing%20%22The%20Local%20Chronicle%22%20priced%20at%20%E2%82%B98%2C000.%20Please%20share%20the%20details."
+    target="_blank"
+>
+    ENQUIRE ABOUT THIS PAINTING
+</a>
+
+        </div>
+
+    </div>
+
+
+</main>
+
+
+
+<footer>
+
+    <p>
+        © 2026 Rakesh Jogawat Art
+    </p>
+
+</footer>
+
+<!-- Artwork Lightbox -->
+
+<div class="lightbox" id="lightbox">
+
+    <button
+        class="lightbox-close"
+        id="lightbox-close"
+        aria-label="Close image"
+    >
+        &times;
+    </button>
+
+    <img
+        id="lightbox-image"
+        src=""
+        alt=""
+    >
+
+</div>
+
+
+<script>
+
+    const artworkImage = document.getElementById("artwork-image");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightbox-image");
+    const lightboxClose = document.getElementById("lightbox-close");
+
+
+    artworkImage.addEventListener("click", function () {
+
+        lightboxImage.src = artworkImage.src;
+        lightboxImage.alt = artworkImage.alt;
+
+        lightbox.classList.add("active");
+
+    });
+
+
+    lightboxClose.addEventListener("click", function () {
+
+        lightbox.classList.remove("active");
+
+    });
+
+
+    lightbox.addEventListener("click", function (event) {
+
+        if (event.target === lightbox) {
+
+            lightbox.classList.remove("active");
+
+        }
+
+    });
+
+</script>
+
+</body>
+
+</html>

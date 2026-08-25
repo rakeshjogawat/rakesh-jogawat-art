@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Rakesh Jogawat</title>
+
+    <meta
+        name="description"
+        content="Explore original watercolour, acrylic and oil paintings by Indian artist Rakesh Jogawat."
+    >
+<!-- Social Media Preview -->
+
+<meta
+    property="og:title"
+    content="Gallery | Rakesh Jogawat"
+>
+
+<meta
+    property="og:description"
+    content="Explore original watercolour, acrylic and oil paintings by Indian artist Rakesh Jogawat."
+>
+
+<meta
+    property="og:image"
+    content="images/painting2.jpeg"
+>
+
+<meta
+    property="og:type"
+    content="website"
+>
+
+<meta
+    property="og:site_name"
+    content="Rakesh Jogawat Art"
+>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+
+        Rakesh Jogawat
+
+        <span>Artist</span>
+
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="gallery.html">Gallery</a>
+
+        <a href="index.html#about">About</a>
+
+        <a href="index.html#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+
+
+<main class="gallery-page">
+
+
+    <!-- =========================
+         GALLERY HEADING
+    ========================== -->
+
+    <div class="gallery-heading">
+
+        <p class="small-heading">
+            THE COLLECTION
+        </p>
+
+        <h1>
+            Gallery
+        </h1>
+
+        <p>
+            Explore original paintings by Rakesh Jogawat.
+        </p>
+
+    </div>
+
+
+
+    <!-- =========================
+         GALLERY FILTERS
+    ========================== -->
+
+    <div class="filters">
+
+        <button
+            class="filter-btn active"
+            data-filter="all"
+        >
+            All
+        </button>
+
+
+        <button
+            class="filter-btn"
+            data-filter="watercolour"
+        >
+            Watercolour
+        </button>
+
+
+        <button
+            class="filter-btn"
+            data-filter="acrylic"
+        >
+            Acrylic
+        </button>
+
+
+        <button
+            class="filter-btn"
+            data-filter="oil"
+        >
+            Oil
+        </button>
+
+
+        <button
+            class="filter-btn"
+            data-filter="sold"
+        >
+            Sold
+        </button>
+
+    </div>
+
+
+
+    <!-- =========================
+         DYNAMIC GALLERY
+    ========================== -->
+
+    <div
+        class="gallery-grid"
+        id="gallery-grid"
+    >
+
+        <!--
+            Paintings are automatically
+            inserted here by script.js
+        -->
+
+    </div>
+
+
+</main>
+
+
+
+<footer>
+
+    <p>
+        © 2026 Rakesh Jogawat Art
+    </p>
+
+</footer>
+
+
+
+<!-- Artwork catalogue -->
+
+<script src="artworks.js"></script>
+
+
+<!-- Main website JavaScript -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
