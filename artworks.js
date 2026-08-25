@@ -55,7 +55,7 @@ const artworks = [
         price: 35000,
         status: "Available",
         featured: true,
-        image: "images/Painting4.jpeg",
+        image: "images/painting4.jpeg",
         description:
             "A powerful depiction of Lord Hanuman during Lankadahan, capturing his divine strength, unwavering devotion, and fearless spirit. With his flaming tail and mighty presence, Hanuman stands as a symbol of courage and the triumph of righteousness over evil."
     }
