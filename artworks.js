@@ -58,47 +58,50 @@ const artworks = [
         image: "images/painting4.jpeg",
         description:
             "A powerful depiction of Lord Hanuman during Lankadahan, capturing his divine strength, unwavering devotion, and fearless spirit. With his flaming tail and mighty presence, Hanuman stands as a symbol of courage and the triumph of righteousness over evil."
-    }
-{
-    id: "nature's-favorite-hideaway",
-    title: "Nature's favorite hideaway",
-    medium: "Acrylics",
-    surface: "Paper",
-    size: "12 × 16 inches",
-    year: 2026,
-    price: 5000,
-    status: "Available",
-    featured: true,
-    image: "images/painting5.jpeg",
-    description:
+    },
+
+    {
+        id: "nature's-favorite-hideaway",
+        title: "Nature's favorite hideaway",
+        medium: "Acrylics",
+        surface: "Paper",
+        size: "12 × 16 inches",
+        year: 2026,
+        price: 5000,
+        status: "Available",
+        featured: true,
+        image: "images/painting5.jpeg",
+        description:
         "Hidden in the folds of the valley, a small hut stands as nature's favorite hideaway, untouched by time."
-}
-{
-    id: "nature's-favorite-hideaway",
-    title: "Nature's favorite hideaway",
-    medium: "Acrylics",
-    surface: "Paper",
-    size: "12 × 16 inches",
-    year: 2026,
-    price: 5000,
-    status: "Available",
-    featured: true,
-    image: "images/painting5.jpeg",
-    description:
-        "Hidden in the folds of the valley, a small hut stands as nature's favorite hideaway, untouched by time."
-}
-{
-    id: "lord-buddha",
-    title: "Lord Buddha",
-    medium: "Acrylics",
-    surface: "Canvas",
-    size: "16 × 20 inches",
-    year: 2026,
-    price: 10000,
-    status: "Available",
-    featured: true,
-    image: "images/painting6.jpeg",
-    description:
-        "This painting captures the essence of absolute inner peace. With soft, flowing brushstrokes and a harmonious color palette, it depicts Lord Buddha in deep meditation, radiating a profound sense of calm. The serene facial expression and gentle aura invite viewers to pause, breathe, and find a moment of stillness amidst the chaos of everyday life. Perfect for creating a mindful, tranquil atmosphere in any space."
-}
+    },
+
+    {
+        id: "nature's-favorite-hideaway",
+        title: "Nature's favorite hideaway",
+        medium: "Acrylics",
+        surface: "Paper",
+        size: "12 × 16 inches",
+        year: 2026,
+        price: 5000,
+        status: "Available",
+        featured: true,
+        image: "images/painting5.jpeg",
+        description:
+            "Hidden in the folds of the valley, a small hut stands as nature's favorite hideaway, untouched by time."
+    },
+    
+    {
+        id: "lord-buddha",
+        title: "Lord Buddha",
+        medium: "Acrylics",
+        surface: "Canvas",
+        size: "16 × 20 inches",
+        year: 2026,
+        price: 10000,
+        status: "Available",
+        featured: true,
+        image: "images/painting6.jpeg",
+        description:
+            "This painting captures the essence of absolute inner peace. With soft, flowing brushstrokes and a harmonious color palette, it depicts Lord Buddha in deep meditation, radiating a profound sense of calm. The serene facial expression and gentle aura invite viewers to pause, breathe, and find a moment of stillness amidst the chaos of everyday life. Perfect for creating a mindful, tranquil atmosphere in any space."
+    },
 ];
