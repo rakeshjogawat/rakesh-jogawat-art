@@ -79,7 +79,7 @@ const artworks = [
         id: "lord-buddha",
         title: "Lord Buddha",
         medium: "Acrylics",
-        surface: "Canvas",
+        surface: "Canvas Board",
         size: "16 × 20 inches",
         year: 2026,
         price: 10000,
@@ -105,4 +105,63 @@ const artworks = [
             "A landscape painting of the Kashmir Valley brings together sweeping natural grandeur and serene tranquility on canvas."
     },
     
+     {
+        id: "jungle-safari",
+        title: "Jungle Safari",
+        medium: "watercolors",
+        surface: "Paper",
+        size: "10 x 14 inches",
+        year: 2026,
+        price: 5000,
+        status: "Available",
+        featured: false,
+        image: "images/painting8.jpeg",
+        description:
+            "A silent encounter in the heart of the wild" 
+    },
+
+      {
+        id: "the-quiet-pulse-of-home",
+        title: "The Quiet Pulse Of Home",
+        medium: "Watercolors",
+        surface: "Paper",
+        size: "10 x 14 inches",
+        year: 2026,
+        price: 12000,
+        status: "Available",
+        featured: false,
+        image: "images/painting9.jpeg",
+        description:
+            "Sunlight, soil, and a roof woven with hard work."
+    },
+    {
+        id: "echoes-of-the-high-desert",
+        title: "Echoes of the High Desert",
+        medium: "Oil Paints",
+        surface: "Canvas Board",
+        size: "16 x 20 inches",
+        year: 2021,
+        price: 15000,
+        status: "Available",
+        featured: false,
+        image: "images/painting10.jpeg",
+        description:
+            "Surviving the silence: a solitary life on the frozen plain." 
+    },
+     {
+        id: "little-pockets-of-warmth",
+        title: "Little pockets of warmth",
+        medium: "Oil Paints",
+        surface: "Canvas Board",
+        size: "16 x 20 inches",
+        year: 2021,
+        price: 8000,
+        status: "Available",
+        featured: false,
+        image: "images/painting11.jpeg",
+        description:
+                "Fairytale roofs resting where the forest path begins."
+     },
+    
+        
 ];
