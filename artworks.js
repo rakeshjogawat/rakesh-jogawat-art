@@ -89,4 +89,20 @@ const artworks = [
         description:
             "This painting captures the essence of absolute inner peace. With soft, flowing brushstrokes and a harmonious color palette, it depicts Lord Buddha in deep meditation, radiating a profound sense of calm. The serene facial expression and gentle aura invite viewers to pause, breathe, and find a moment of stillness amidst the chaos of everyday life. Perfect for creating a mindful, tranquil atmosphere in any space."
     },
+
+      {
+        id: "kashmir-valley",
+        title: "Kashmir Valley",
+        medium: "Oil paint",
+        surface: "Canvas Board",
+        size: "16 x 20 inches",
+        year: 2020,
+        price: 18000,
+        status: "Available",
+        featured: false,
+        image: "images/painting7.jpeg",
+        description:
+            "A landscape painting of the Kashmir Valley brings together sweeping natural grandeur and serene tranquility on canvas."
+    },
+    
 ];
