@@ -4,7 +4,7 @@ const artworks = [
         id: "the-local-chronicle",
         title: "The Local Chronicle",
         medium: "Watercolour",
-        surface: "Paper",
+        surface: "Watercolor Paper",
         size: "10 × 14 inches",
         year: 2026,
         price: 8000,
@@ -19,7 +19,7 @@ const artworks = [
         id: "pedals-passion-daily-brew",
         title: "Pedals, Passion, and the Daily Brew",
         medium: "Watercolour",
-        surface: "Paper",
+        surface: "Watercolor Paper",
         size: "10 × 14 inches",
         year: 2026,
         price: 12000,
@@ -64,7 +64,7 @@ const artworks = [
         id: "nature's-favorite-hideaway",
         title: "Nature's favorite hideaway",
         medium: "Acrylics",
-        surface: "Paper",
+        surface: "Oil Painting Paper",
         size: "12 × 16 inches",
         year: 2026,
         price: 5000,
@@ -109,7 +109,7 @@ const artworks = [
         id: "jungle-safari",
         title: "Jungle Safari",
         medium: "watercolors",
-        surface: "Paper",
+        surface: "Watercolor Paper",
         size: "10 x 14 inches",
         year: 2026,
         price: 5000,
@@ -124,7 +124,7 @@ const artworks = [
         id: "the-quiet-pulse-of-home",
         title: "The Quiet Pulse Of Home",
         medium: "Watercolors",
-        surface: "Paper",
+        surface: "Watercolor Paper",
         size: "10 x 14 inches",
         year: 2026,
         price: 12000,
@@ -161,6 +161,20 @@ const artworks = [
         image: "images/painting11.jpeg",
         description:
                 "Fairytale roofs resting where the forest path begins."
+     },
+      {
+        id: "spider-man",
+        title: "Spider Man",
+        medium: "Acrylics",
+        surface: "Oil painting Paper",
+        size: "12 x 16 inches",
+        year: 2026,
+        price: 11000,
+        status: "Available",
+        featured: true,
+        image: "images/painting15.jpeg",
+        description:
+                "Your neighbourhood's favourite superhero"
      },
     
         
