@@ -176,5 +176,34 @@ const artworks = [
         description:
                 "Your neighbourhood's favourite superhero"
      },
+     {
+        id: "Swan-pair-painting",
+        title: "Swan Pair : Symbol of Love",
+        medium: "Oil Paints",
+        surface: "Canvas Board",
+        size: "16 x 20 inches",
+        year: 2026,
+        price: 21000,
+        status: "Sold",
+        featured: false,
+        image: "images/painting12.jpeg",
+        description:
+               "Swan Pair : Symbol of Love",
+     },
+    
+     {
+        id: "Beach-side-Villa",
+        title: "Beach side Villa",
+        medium: "Oil Paints",
+        surface: "Canvas Board",
+        size: "16 x 20 inches",
+        year: 2026,
+        price: 28000,
+        status: "Sold",
+        featured: false,
+        image: "images/painting13.jpeg",
+        description:
+                "Beach side villa : a serene coastal retreat",
+     },
         
 ];
