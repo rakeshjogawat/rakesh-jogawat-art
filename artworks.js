@@ -172,7 +172,7 @@ const artworks = [
         price: 11000,
         status: "Available",
         featured: true,
-        image: "images/painting12.jpeg",
+        image: "images/Painting15.jpeg",
         description:
                 "Your neighbourhood's favourite superhero"
      },
