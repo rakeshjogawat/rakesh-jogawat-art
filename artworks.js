@@ -205,5 +205,18 @@ const artworks = [
         description:
                 "Beach side villa : a serene coastal retreat",
      },
-        
+     {
+        id: "Rainy-day-at-Munnar",
+        title: "Rainy day at Munnar",
+        medium: "Acrylics",
+        surface: "Canvas Board",
+        size: "16 x 20 inches",
+        year: 2025,
+        price: 11000,
+        status: "Available",
+        featured: false,
+        image: "images/painting14.jpeg",
+        description:
+            "Pleasant Rainy Day at Munnar" 
+    },
 ];
